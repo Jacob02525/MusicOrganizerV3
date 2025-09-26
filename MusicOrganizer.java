@@ -69,10 +69,10 @@ public class MusicOrganizer
      public void listWithIndex()
     {
         for(String filename : files) {
-            
-            int position= files.get(index + 1);
-            System.out.println(filename);
+            int position = 0;
+            position++;
             System.out.println(position + ": " + filename);
+            System.out.println(filename);
         }
     }
     
